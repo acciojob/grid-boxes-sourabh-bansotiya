@@ -1,52 +1,52 @@
 /*  your css code here. If applicable */
 #grid{
-    width: 600px;
-    height: 300px;
+   grid-template-rows: 124px 124px 124px 124px 124px;
+	grid-template-columns: 242.5px 242.5px 242.5px 242.5px;
     display: grid;
-    gap: 10px;
+    gap: 5px;
 	color: white;
 	font-size: 30px;
     
 #grid-area1{
 	background-color: green;
-	grid-column: 1/5;
+	grid-column: span 4;
 }
 
 #grid-area2{
 	background-color: green;
-	grid-row: 2/6;
+	grid-row: span 4;
 }
 
 	#grid-area3{
 	background-color: green;
-	grid-column: 2/3;
+	grid-column: span 1;
 }
 	#grid-area4{
 	background-color: green;
-	grid-column: 3/5;
+	grid-column: span 2;
 }
 
 	#grid-area5{
 	background-color: green;
-	grid-column: 2/4;
+	grid-column: span 2;
 }
 	#grid-area6{
 	background-color: green;
-	grid-column: 4/5;
+	grid-column: span 1;
 }
 	#grid-area7{
 	background-color: green;
-	grid-column: 2/3;
+	grid-column: span 1;
 }
 	#grid-area8{
 	background-color: green;
-	grid-column: 3/4;
+	grid-column: span 1;
 }
 	#grid-area9{
 	background-color: green;
-	grid-column: 4/5;
+	grid-column: span 1;
 }
 	#grid-area10{
 	background-color: green;
-	grid-column: 2/5;
+	grid-column: span 3;
 }
